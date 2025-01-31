@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+::selection{
+  background-color: #aa206e;
+  color: #1cd8cc;
+}
 .header{
   background-image: linear-gradient(to right, #aa206e, #a83088, #a041a2, #9052bb, #7863d1, #6176e1, #4488ee, #0097f7, #00acf9, #00bdf0, #00ccdf, #1cd8cc);
   height: 14em; 
@@ -18,11 +22,8 @@
   flex: 1;
 }
 .logo-img{
-  height: 130px;
+  height: 145px;
   width: 130px;;
-}
-.body{
-  background-color: #6176e1;
 }
 
 .titulo-header{
@@ -40,7 +41,7 @@
 .contenedor{
   display: flex;
   flex-direction: column; /* Los contenedores se apilan verticalmente */
-  background-color: #1cd8cc;
+  background-color: black;
   gap: 30px;
   padding: 30px;
 
@@ -51,14 +52,14 @@
 }
 
 .item-1{
-  background-color: #a83088;
+  background-color:white;
   font-size: 0.8em;
   border-radius: 4em;
   height: 200px;
   text-align: center;
 }
 .item-2{
-  background-color: #4488ee;
+  background-color: white;
   border-radius: 100%;
   height: 180px;
   width: 200px;
@@ -86,7 +87,7 @@
   font-family: monospace;
   font-size: 1.8em;
   padding: 10px;
-  color: white;
+  color: black;
   text-shadow: black 1px 1px 1px;
   margin: 1%;
 }
@@ -97,14 +98,14 @@
 .contenedor2{
   display: flex;
   flex-direction: column; /* Los contenedores se apilan verticalmente */
-  background-color: #a041a2;
+  background-color: black;
   margin: 2%;
 }
 .item{
     flex: 1; /* Los contenedores ocupan el 100% del ancho */
     padding: 20px;
-    background-color: #00acf9;
-    border: 1px solid #7863d1;
+    background-color: white;
+    border: 1px solid black;
     text-align: center;
     margin: 1%;
     padding: 20px;
@@ -117,7 +118,11 @@
   text-decoration: none;
   text-shadow: black 1px 1px 1px;
   background-color: #6176e1;
-  
+  text-decoration: underline;
+}
+.enlace-pagina:hover{
+  color: #1cd8cc;
+  background-color: #aa206e;
 }
   
   /* Footer */

@@ -42,9 +42,8 @@
   font-family: monospace;
   text-align: center;
   font-size: 2.5em;
-  padding: 20px;
-  margin: 2%;
   text-shadow: black 1px 1px 1px;
+  margin: 2%;
 }
 
 .contenedor {
@@ -53,6 +52,8 @@
   background-color: black;
   gap: 30px;
   padding: 30px;
+  align-items: center;
+  justify-content: center;
 }
 
 .item-1 .item-2 {
@@ -93,15 +94,18 @@
   text-align: center;
   text-shadow: black 1px 1px 1px;
   padding: 20px;
+  background-color: #7863d1;
+  color: white;
 }
 
 .titulos-pagina {
   font-family: monospace;
   font-size: 1.8em;
   padding: 10px;
-  color: black;
+  color: white;
   text-shadow: black 1px 1px 1px;
   margin: 1%;
+  background-color: #aa206e;
 }
 
 .texto-pagina {
@@ -114,6 +118,8 @@
   flex-direction: column; /* Los contenedores se apilan verticalmente */
   background-color: black;
   margin: 2%;
+  padding: 22px;
+  gap: 22px;
 }
 
 .item {

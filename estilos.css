@@ -42,7 +42,6 @@
   font-family: monospace;
   text-align: center;
   font-size: 2.5em;
-  text-shadow: black 1px 1px 1px;
   margin: 2%;
 }
 
@@ -132,6 +131,10 @@
   padding: 20px;
 }
 
+.item:hover {
+  transform: scale(1.1);
+}
+
 .enlace-pagina {
   font-family: monospace;
   padding: 2px;
@@ -151,11 +154,20 @@
 /* Footer */
 .footer {
   background-image: linear-gradient(to right, #aa206e, #a83088, #a041a2, #9052bb, #7863d1, #6176e1, #4488ee, #0097f7, #00acf9, #00bdf0, #00ccdf, #1cd8cc);
-  color: black;
+  color: white;
   text-align: center;
   font-family: monospace;
   font-size: 1.2em;
   padding: 20px;
+}
+
+.a14 {
+  color: white;
+  text-shadow: #a83088 1px 1px 1px;
+}
+
+.a14:hover {
+  color: #1cd8cc;
 }
 
 .social-links {
